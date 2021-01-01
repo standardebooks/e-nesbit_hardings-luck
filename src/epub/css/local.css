@@ -1,2 +1,88 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+
+/* This is for the sign in Chapter 3 */
+#chapter-3 blockquote{
+	width: 40%;
+	border-style: solid;
+	border-width: 0.1em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#chapter-3 blockquote p{
+	text-align: center;
+	text-indent: 0;
+	font-variant: small-caps;
+}
+
+/* This for the bookkeeping table in Chapter 5 */
+
+table{
+	margin: 1em auto 1em auto;
+}
+
+#chapter-5 tr:nth-of-type(6) td:nth-of-type(3),
+#chapter-5 tr:nth-of-type(11) td:nth-of-type(3){
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+}
+
+/* Dedication */
+section[epub|type~="dedication"]{
+	text-align: center;
+}
+
+section[epub|type~="dedication"] > *{
+	display: inline-block;
+	margin: auto;
+	margin-top: 3em;
+	max-width: 80%;
+}
+
+@supports(display: flex){
+	section[epub|type~="dedication"]{
+		align-items: center;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		min-height: calc(98vh - 3em);
+		padding-top: 3em;
+	}
+
+	section[epub|type~="dedication"] > *{
+		margin: 0;
+	}
+}
+
+/* Verse */ 
+[epub|type~="z3998:song"] p,
+[epub|type~="z3998:verse"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:song"] p > span,
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+[epub|type~="z3998:song"] p > span + br,
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+
+p span.i1{
+	text-indent: -1em;
+	padding-left: 2em;
+}
+
+p span.i2{
+	text-indent: -1em;
+	padding-left: 3em;
+}
+
