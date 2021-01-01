@@ -1,7 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-
 /* This is for the sign in Chapter 3 */
 #chapter-3 blockquote{
 	width: 40%;
@@ -18,9 +17,12 @@
 }
 
 /* This for the bookkeeping table in Chapter 5 */
-
 table{
 	margin: 1em auto 1em auto;
+}
+
+#chapter-5 tr td:nth-of-type(3){
+	text-align: right;
 }
 
 #chapter-5 tr:nth-of-type(6) td:nth-of-type(3),
@@ -57,7 +59,7 @@ section[epub|type~="dedication"] > *{
 	}
 }
 
-/* Verse */ 
+/* Verse */
 [epub|type~="z3998:song"] p,
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
@@ -85,4 +87,3 @@ p span.i2{
 	text-indent: -1em;
 	padding-left: 3em;
 }
-
