@@ -35,7 +35,10 @@
 		<meta property="se:subject">Childrens</meta>
 		<dc:description id="description">A poor orphan boy accidentally discovers magic which sends him into the past and leads to his recovery of a fortune and a lordly title.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;i&gt;Harding’s Luck&lt;/i&gt;, published in 1909, is the sequel to &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/e-nesbit/the-house-of-arden"&gt;The House of Arden&lt;/a&gt;&lt;/i&gt; by &lt;a href="https://standardebooks.org/ebooks/e-nesbit"&gt;E. Nesbit&lt;/a&gt;.&lt;/p&gt;
+			&lt;p&gt;Rather darker and more serious in tone than the previous book, this novel is set in the Edwardian era in England, when there was no government-supported welfare and poor people still sometimes starved to death. It centres on young Dickie Harding, a poor, lame, orphan boy who is enticed to run away with a disreputable tramp, Mr. Beale, who intends to use him to help carry out burglaries (a plot device not dissimilar to that of &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/charles-dickens/oliver-twist"&gt;Oliver Twist&lt;/a&gt;)&lt;/i&gt;. Nevertheless Beale becomes a substitute father-figure to Dickie and a strong mutual affection develops.&lt;/p&gt;
+			&lt;p&gt;The story then introduces a magical device which sends Dickie back in time to the early reign of King James I, where he inhabits the body of the son of the Lord of a castle. Despite this new, very comfortable existence, where he is a member of a rich, respected family and no longer lame, Dickie selflessly forces himself to return to his present day because of a promise he had made to Beale and a desire to help Beale to lead a more honest life.&lt;/p&gt;
+			&lt;p&gt;Edith Nesbit was a member of the socially-progressive Fabian Society and a friend of &lt;a href="https://standardebooks.org/ebooks/h-g-wells"&gt;H. G. Wells&lt;/a&gt;, and from time to time this shows clearly in her stories. So while &lt;i&gt;Harding’s Luck&lt;/i&gt; is primarily a children’s novel, it touches on many deeper themes and comments seriously on the social conditions of the author’s time.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/28725</dc:source>
