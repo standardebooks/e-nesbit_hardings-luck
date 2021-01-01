@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+	<title>A six-pointed star pattern made up of two overlapping triangles.</title>
+	<path d="M524.47 52.506l446.483 773.055H77.986L524.47 52.506z" fill="none" stroke="#000" stroke-width="6"/>
+	<path d="M531.503 1032.29l446.483-773.054H85.019l446.484 773.054z" fill="none" stroke="#000" stroke-width="6"/>
+</svg>
