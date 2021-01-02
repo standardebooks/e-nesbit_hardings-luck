@@ -5,9 +5,10 @@
 #chapter-3 blockquote{
 	width: 40%;
 	border-style: solid;
-	border-width: 0.1em;
+	border-width: 1px;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 1em;
 }
 
 #chapter-3 blockquote p{
@@ -19,14 +20,15 @@
 /* This for the bookkeeping table in Chapter 5 */
 table{
 	margin: 1em auto 1em auto;
+	font-variant-numeric: tabular-nums;
 }
 
-#chapter-5 tr td:nth-of-type(3){
+table tr td:nth-of-type(3){
 	text-align: right;
 }
 
-#chapter-5 tr:nth-of-type(6) td:nth-of-type(3),
-#chapter-5 tr:nth-of-type(11) td:nth-of-type(3){
+table tr:nth-of-type(6) td:nth-of-type(3),
+table tr:nth-of-type(11) td:nth-of-type(3){
 	border-bottom-style: solid;
 	border-bottom-width: thin;
 }
